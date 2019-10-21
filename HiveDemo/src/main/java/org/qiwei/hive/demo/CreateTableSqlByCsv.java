@@ -7,7 +7,7 @@ import java.util.List;
 
 public class CreateTableSqlByCsv {
 
-  public static final  String CSVPATH ="/Users/wei.qi/workspace/tw_work/workshop/tw-bigdata-workshop/hive-demo/src/main/script/sales.csv";
+  public static final  String CSVPATH ="/Users/wei.qi/workspace/tw_work/workshop/tw-bigdata-workshop/script/sales.csv";
 
   public static void main(String[] args) throws IOException {
     List<String> csvFileLines=Files.readAllLines(Paths.get(CSVPATH));
